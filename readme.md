@@ -5,7 +5,16 @@ This is a plugin of [skeleton-webpack-plugin](https://github.com/NealST/skeleton
 
 ## how to use  
 
-skeleton-weex-plugin must be used combined with [skeleton-webpack-plugin](https://github.com/NealST/skeleton-webpack-plugin).After you installed this webpack plugin,what you need to do is just adding skeleton-weex-plugin to the plugins configure param of skeleton-webpack-plugin like this:
+skeleton-weex-plugin must be used combined with [skeleton-webpack-plugin](https://github.com/NealST/skeleton-webpack-plugin).  
+Befor you use it,you must install them
+```
+npm i skeleton-webpack-plugin skeleton-weex-plugin --save-dev
+```
+or
+```
+yarn add skeleton-webpack-plugin skeleton-weex-plugin --dev
+```
+After you installed this webpack plugin and skeleton-weex-plugin,what you need to do is just adding skeleton-weex-plugin to the plugins configure param of skeleton-webpack-plugin like this:
 
 ```
 const SkeletonWebpackPlugin = require('skeleton-webpack-plugin')

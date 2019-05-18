@@ -3,7 +3,16 @@ skeleton-weex-plugin是[skeleton-webpack-plugin](https://github.com/NealST/skele
 
 ## 如何使用  
 
-skeleton-weex-plugin必须结合[skeleton-webpack-plugin](https://github.com/NealST/skeleton-webpack-plugin)一起使用.在安装好该webpack插件之后，你只需要在其plugins配置项中添加上skeleton-weex-plugin即可。
+skeleton-weex-plugin必须结合[skeleton-webpack-plugin](https://github.com/NealST/skeleton-webpack-plugin)一起使用.  
+在使用之前你必须先安装它们。
+```
+npm i skeleton-webpack-plugin skeleton-weex-plugin --save-dev
+```
+或者
+```
+yarn add skeleton-webpack-plugin skeleton-weex-plugin --dev
+```
+在安装好该webpack插件之后，你只需要在其plugins配置项中添加上skeleton-weex-plugin即可。
 
 ```
 const SkeletonWebpackPlugin = require('skeleton-webpack-plugin')
