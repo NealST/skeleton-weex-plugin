@@ -1,7 +1,7 @@
 ## skeleton-weex-plugin
 This is a plugin of [skeleton-webpack-plugin](https://github.com/NealST/skeleton-webpack-plugin) to generate skeleton for your weex page.   
 
-[中文文档戳这里]()
+[中文文档戳这里](https://github.com/NealST/skeleton-weex-plugin/blob/master/readme.cn.md)
 
 ## how to use  
 
