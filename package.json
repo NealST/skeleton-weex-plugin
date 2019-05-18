@@ -1,0 +1,23 @@
+{
+  "name": "skeleton-weex-plugin",
+  "version": "1.0.0",
+  "description": "a plugin of skeleton-webpack-plugin for generate weex skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NealST/skeleton-weex-plugin.git"
+  },
+  "keywords": [
+    "skeleton",
+    "weex"
+  ],
+  "author": "NealST",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NealST/skeleton-weex-plugin/issues"
+  },
+  "homepage": "https://github.com/NealST/skeleton-weex-plugin#readme"
+}
