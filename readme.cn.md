@@ -29,7 +29,7 @@ module.exports = {
   ]
 }
 ```  
-然后当你启动dev server本地预览页面时，打开你的控制台，输入skeleton并按下回车键即可 
+然后当你启动dev server本地预览页面时,打开你的控制台，输入skeleton并按下回车键即可 
 ![](https://camo.githubusercontent.com/ffc6c72bfb3ed1391a4e0be72c27b1e97433b448/68747470733a2f2f70742d73746172696d672e646964697374617469632e636f6d2f7374617469632f73746172696d672f696d672f6c4e6e694d764635584c313535383038393937373337382e6a7067)  
 
 skeleton-weex-plugin将会在你对应的页面目录下生成skeleton.vue的文件：
@@ -57,5 +57,5 @@ skeleton style content
 怎样你就可以将骨架屏当初一个组件来使用，并控制它的隐藏和显示  
 
 ## 它是如何实现的  
-作为skeleton-webpack-plugin的插件,skeleton-weex-plugin可以获取到骨架屏html与css的抽象语法树，skeleton-weex-plugin只需要将语法树转化成weex代码。这里我选择了vue作为weex的dsl。 
+作为skeleton-webpack-plugin的插件,skeleton-weex-plugin可以获取到骨架屏html与css的抽象语法树，skeleton-weex-plugin只需要将语法树转化成weex代码。这里我选择了vue作为weex的dsl。 
 ![](https://pt-starimg.didistatic.com/static/starimg/img/31gUFXpL6c1558076117193.jpg)
